@@ -1,0 +1,143 @@
+/* This is the project stylesheet */
+
+:root {
+  /* Colors */
+  --black: rgba(0, 0, 0, 1);
+  --khaki: rgba(255, 199, 134, 1);
+  --pale-goldenrod: rgba(223, 255, 154, 1);
+
+  /* Typographies */
+  /* inter-20-regular */
+  --inter-20-regular-family: "Inter";
+  --inter-20-regular-size: 20px;
+  --inter-20-regular-weight: 400;
+  --inter-20-regular-line-height: 28px;
+
+  /* inter-20-regular-2 */
+  --inter-20-regular-2-family: "Inter";
+  --inter-20-regular-2-size: 20px;
+  --inter-20-regular-2-weight: 400;
+  --inter-20-regular-2-line-height: normal;
+
+  /* inter-40-regular */
+  --inter-40-regular-family: "Inter";
+  --inter-40-regular-size: 40px;
+  --inter-40-regular-weight: 400;
+  --inter-40-regular-line-height: 56px;
+
+  /* inter-48-bold */
+  --inter-48-bold-family: "Inter";
+  --inter-48-bold-size: 48px;
+  --inter-48-bold-weight: 700;
+  --inter-48-bold-line-height: normal;
+}
+
+.desktop-3 {
+  background-color: var(--pale-goldenrod);
+  display: flex;
+}
+
+.kontakty {
+  height: 52px;
+  border-radius: 10px;
+  margin-top: 20px;
+  color: var(--black);
+  text-align: center;
+  font-family: Inter;
+  font-size: var(--inter-20-regular-2-size);
+  font-weight: var(--inter-20-regular-2-weight);
+  line-height: var(--inter-20-regular-2-line-height);
+}
+
+.nash-povar-ararat {
+  height: 100px;
+  margin-top: 120px;
+  color: var(--black);
+  text-align: center;
+  font-family: var(--inter-48-bold-family);
+  font-size: var(--inter-48-bold-size);
+  font-weight: var(--inter-48-bold-weight);
+  line-height: var(--inter-48-bold-line-height);
+}
+
+.ararat-rabotaet-povarom-s-2012-goda-on {
+  height: 168px;
+  margin-top: 0px;
+  color: var(--black);
+  text-align: center;
+  font-family: var(--inter-40-regular-family);
+  font-size: var(--inter-40-regular-size);
+  font-weight: var(--inter-40-regular-weight);
+  line-height: var(--inter-40-regular-line-height);
+}
+.povar-1 {
+  width: 529px;
+  height: 332px;
+  border-radius: 200px;
+  margin-top: 100px;
+}
+
+.shaurma-1{
+  height: 339px;
+  margin-top: 100px;
+
+  border: 2px solid #000000;
+  border-radius: 10px;
+}
+
+.shaurma-vid{
+  height: 250px;
+  margin-top: 100px;
+
+  border-radius: 10px;
+}
+
+.razn-vid{
+  margin-top: 127px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 77px;
+  align-items: center;
+  text-align: center;
+  color: var(--black);
+}
+
+.nazv-vid{
+  padding-top: 20px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  align-items: center;
+  text-align: center;
+  color: var(--black);
+}
+
+.text-vid{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 140%;
+  color: var(--black);
+}
+
+.text-footer{
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 26px;
+  color: var(--black);
+}
+
+.nazv-footer{
+  padding-top: 510px;
+  font-weight: 700;
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 36px;
+  color: var(--black);
+}
